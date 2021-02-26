@@ -1,0 +1,5 @@
+[General]
+theme=Nordic
+
+[Applications]
+Nordic=pcmanfm-qt
