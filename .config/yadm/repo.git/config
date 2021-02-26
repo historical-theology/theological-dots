@@ -10,3 +10,6 @@
 	showUntrackedFiles = no
 [yadm]
 	managed = true
+[remote "origin"]
+	url = https://www.github.com/historical-theology/theological-dots
+	fetch = +refs/heads/*:refs/remotes/origin/*
