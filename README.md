@@ -9,6 +9,7 @@ I publish my own modifications and work under the Creative Commons Zero 1.0 Univ
 - [tony/spectrwm-config](https://github.com/tony/spectrwm-config) -  no license
 - [daaniiieel/nord-firefox](https://github.com/daaniiieel/nord-firefox) - no license
 - [undiabler/nord-rofi-theme](https://github.com/undiabler/nord-rofi-theme) - no license
+- [KiranWells/micro-nord-tc-colors](https://github.com/KiranWells/micro-nord-tc-colors) - MIT License - compatible with CC-Zero
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
 - [trgeiger/nord-kde](https://github.com/trgeiger/nord-kde) - GPL 3.0 License - preserved for ~/.icons/, ~/.themes/, and ~/.config/Kvantum/
 
