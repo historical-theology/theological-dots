@@ -5,9 +5,10 @@ These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spe
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
 I publish my own modifications and work under the Creative Commons Zero 1.0 Universal license, meaning that they are freely available for (nearly) any use. Other repositories from which I have drawn include:
+- [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - compatible with CC-Zero
 - [tony/spectrwm-config](https://github.com/tony/spectrwm-config) -  no license
 - [daaniiieel/nord-firefox](https://github.com/daaniiieel/nord-firefox) - no license
-- [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - compatible with CC-Zero
+- [undiabler/nord-rofi-theme](https://github.com/undiabler/nord-rofi-theme) - no license
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
 - [trgeiger/nord-kde](https://github.com/trgeiger/nord-kde) - GPL 3.0 License - preserved for ~/.icons/, ~/.themes/, and ~/.config/Kvantum/
 
