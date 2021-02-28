@@ -71,7 +71,7 @@ pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch 
 ``` 
 
 ## System Configruation
-This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop system.
+This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
 
 #### /etc/rc.conf
 ```
@@ -95,10 +95,10 @@ cuse_load="YES"
 
 ## FAQ
 #### Why FreeBSD?
-FreeBSD is stable and sensible, and the user has full control of it. I like Debian GNU/Linux for similar reasons.
+FreeBSD is stable and sensible. The user has full control of it.
 
 #### Why spectrwm?
-spectrwm is lightweight and fast. It has a plain text configuration file (~/.config/spectrwm/spectrwm.conf) that makes it easy to customize. It achieves almost everything that I want in a tiling window manager.
+spectrwm is lightweight and fast. It has a plain text configuration file (~/.config/spectrwm/spectrwm.conf) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
 
 #### Why conky?
-spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`.
+spectrwm has its own status bar, which is what I use -- with conky relaying my system status information. On its own, the spectrwm status bar is capable of displaying information from a shell script (often called `baraction.sh` in examples). However, shell scripts are *not* portable (cross-platform). A conky configuration (~/.conkyrc) *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`. See my ~/.config/spectrwm/spectrwm.conf and ~/.conkyrc for how I have achieved my desired effect.
