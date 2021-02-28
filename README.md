@@ -52,7 +52,8 @@ alphabetical, partial
 - firefox
 - fish
 - kvantum
-- lxappearance 
+- lxappearance
+- lxqt-config
 - micro
 - neofetch
 - nitrogen
@@ -69,7 +70,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance lxqt-config micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
 ``` 
 
 ## Firefox
