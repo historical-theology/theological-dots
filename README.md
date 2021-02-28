@@ -71,8 +71,9 @@ pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch 
 ``` 
 
 ## System Configruation
-This is my *personal* system configuration information.
-/etc/rc.conf
+This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop system.
+
+#### /etc/rc.conf
 ```
 kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module
 dbus_enable="YES"                         # required for many xorg-related utilities
@@ -84,7 +85,7 @@ Requires:
 pkg install xf86-video-amdgpu webcamd cups
 ```
 
-/boot/loader.conf
+#### /boot/loader.conf
 ```
 vfs.root_mount_always_wait="1"            # partially alleviate CAM boot pause
 sysctlinfo_load="YES"                      
@@ -93,5 +94,11 @@ cuse_load="YES"
 ```
 
 ## FAQ
-##### Why conky?
-spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable.
+#### Why FreeBSD?
+FreeBSD is stable and sensible, and the user has full control of it. I like Debian GNU/Linux for similar reasons.
+
+#### Why spectrwm?
+spectrwm is lightweight and fast. It has a plain text configuration file (~/.config/spectrwm/spectrwm.conf) that makes it easy to customize. It achieves almost everything that I want in a tiling window manager.
+
+#### Why conky?
+spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`.
