@@ -7,7 +7,7 @@ The purpose of this repository, which I manage with [Yet Another Dotfiles Manage
 I publish my own modifications and work under the Creative Commons Zero 1.0 Universal license, meaning that they are freely available for (nearly) any use. Other repositories from which I have drawn include:
 - [tony/spectrwm-config](https://github.com/tony/spectrwm-config) -  no license
 - [daaniiieel/nord-firefox](https://github.com/daaniiieel/nord-firefox) - no license
-- [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - n/a (compatible with CC-Zero)
+- [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - compatible with CC-Zero
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
 - [trgeiger/nord-kde](https://github.com/trgeiger/nord-kde) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
 
@@ -44,6 +44,7 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 - pcmanfm
 - picom
 - ranger
+- redshift
 - rofi
 - spectrwm
 - wine
@@ -52,7 +53,7 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 ## FreeBSD Package List
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
-```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger rofi spectrwm xorg i386-wine yadm``` 
+```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger redshift rofi spectrwm xorg i386-wine yadm``` 
 
 ## Why conky?
 spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable.
