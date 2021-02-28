@@ -78,7 +78,8 @@ Here is what I use to achieve a homogenously Nord Theme web browsing experience 
 - [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
 
 For *fast* systems, use the Midnight Lizard extension to achieve consistent website theming:
-- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) - Choose theme "Nord"
+- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) 
+- Install the ["Nord" color scheme by Paval Agarkov](https://midnight-lizard.org/schemes/index/full/?q=Nord&side=any&bg=any) from the official Midnight Lizard website
 
 For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in ~/.mozilla/firefox/PROFILE
 - Type `about:config` in the URL bar and set `toolkit.legacyUserProfileCustomizations.stylesheets` to "true"
