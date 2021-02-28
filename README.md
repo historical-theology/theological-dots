@@ -90,14 +90,14 @@ This is my *personal* system configuration information that does not belong in d
 
 #### /etc/rc.conf
 ```
-kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module
-dbus_enable="YES"                         # required for many xorg-related utilities
+kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module, loads drm-kmod & is required for xf86-video-amdgpu
+dbus_enable="YES"                         # required for many xorg-related matters
 webcamd_enable="YES"                      # webcam daemon
 cupsd_enable="YES"                        # Common Unix Printing Service (CUPS)
 ```
 Requires: 
 ```
-pkg install xf86-video-amdgpu webcamd cups
+pkg install drm-kmod xf86-video-amdgpu webcamd cups
 ```
 
 #### /boot/loader.conf
