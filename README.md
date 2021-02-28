@@ -74,8 +74,12 @@ pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance mic
 
 ## Firefox
 - [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
-- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) - Choose theme "Nord"
 - Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
+For *fast* systems, use the Midnight Lizard extension to achieve consistent website theming:
+- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) - Choose theme "Nord"
+For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in ~/.mozilla/firefox/PROFILE
+- Type `about:config` in the URL bar and set `toolkit.legacyUserProfileCustomizations.stylesheets` to "true"
+
 
 ## System Configruation
 This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
