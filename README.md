@@ -5,9 +5,9 @@ These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spe
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
 ## Contents
-- [Licenses](##licenses)
-- [Clone Instructions](##yadm-clone-instructions)
-- [Basic Tools](##basic-tools)
+- [Licenses](#licenses)
+- [Clone Instructions](#yadm-clone-instructions)
+- [Basic Tools](#basic-tools)
 - [Dotfiles Applications List](## Dotfiles Applications List (Alphabetical, Partial)
 - [FreeBSD Package List](## FreeBSD Package List)
 - [System Configuration](## System Configruation (Personal))
