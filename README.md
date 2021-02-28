@@ -43,7 +43,8 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 - Status Tool (for spectrwm bar): [conky](https://github.com/brndnmtthws/conky)
 - Text Editor: [micro](https://micro-editor.github.io/)
 
-## Dotfiles Applications List (Alphabetical, Partial)
+## Dotfiles Applications List
+alphabetical, partial
 - alacritty
 - bpytop
 - conky
@@ -69,7 +70,8 @@ On a fresh FreeBSD 13 installation, I can run the following to install most of w
 pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
 ``` 
 
-## System Configruation (Personal)
+## System Configruation
+This is my *personal* system configuration information.
 /etc/rc.conf
 ```
 kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module
