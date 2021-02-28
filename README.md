@@ -52,7 +52,7 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 ## FreeBSD Package List
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
-```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger rofi spectrwm xorg wine yadm``` 
+```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger rofi spectrwm xorg i386-wine yadm``` 
 
 ## Why conky?
 spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable.
