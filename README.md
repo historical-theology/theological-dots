@@ -8,10 +8,10 @@ The purpose of this repository, which I manage with [Yet Another Dotfiles Manage
 - [Licenses](#licenses)
 - [Clone Instructions](#yadm-clone-instructions)
 - [Basic Tools](#basic-tools)
-- [Dotfiles Applications List](## Dotfiles Applications List (Alphabetical, Partial)
-- [FreeBSD Package List](## FreeBSD Package List)
-- [System Configuration](## System Configruation (Personal))
-- [FAQ](## FAQ)
+- [Dotfiles Applications List](#dotfiles-applications-list)
+- [FreeBSD Package List](#freebsd-package-list)
+- [System Configuration](#system-configruation)
+- [FAQ](#faq)
 
 ## Licenses
 I publish my own modifications and work under the Creative Commons Zero 1.0 Universal license, meaning that they are freely available for (nearly) any use. Other repositories from which I have drawn include:
