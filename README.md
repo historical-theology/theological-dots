@@ -115,14 +115,17 @@ cuse_load="YES"
 ```
 
 ## FAQ
-#### Why FreeBSD?
+#### Why do you use FreeBSD?
 FreeBSD is stable and sensible. The user has full control of it.
 
-#### Why spectrwm?
+#### Why do you use spectrwm?
 spectrwm is lightweight and fast. It has a plain text configuration file (`~/.config/spectrwm/spectrwm.conf`) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
 
-#### Why Nord Theme?
-Nord is gentle on my eyes during long hours of scholarly research and writing. It is designed to be soothing rather than bold.
+#### Why do you use the Nord Theme instead of a different color scheme -- or a custom one?
+Nord is gentle on my eyes during long hours of scholarly research and writing. It is designed to be soothing rather than bold. It is also popular enough to be available for most utilities.
 
-#### Why conky?
+#### Why do you use conky instead of a shell script to display system information in the spectrwm status bar?
 spectrwm has its own status bar, which is what I use -- with conky relaying my system status information. On its own, the spectrwm status bar is capable of displaying information from a shell script (often called `baraction.sh` in examples). However, shell scripts are *not* portable (cross-platform). A conky configuration (.conkyrc) *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`. See my `.config/spectrwm/spectrwm.conf` and .conkyrc for how I have achieved my desired effect.
+
+#### Why is this repository called "Theological Dotfiles"?
+I am a professional Catholic historical theologian. These dotfiles help me theologize.
