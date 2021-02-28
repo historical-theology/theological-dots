@@ -6,7 +6,7 @@ The purpose of this repository, which I manage with [Yet Another Dotfiles Manage
 
 ## Contents
 - [Licenses](##licenses)
-- [Clone Instructions](## yadm Clone Instructions)
+- [Clone Instructions](##yadm-clone-instructions)
 - [Basic Tools](## Basic Tools)
 - [Dotfiles Applications List](## Dotfiles Applications List (Alphabetical, Partial)
 - [FreeBSD Package List](## FreeBSD Package List)
