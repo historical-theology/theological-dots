@@ -40,7 +40,7 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 - Window Manager: [spectrwm](https://github.com/conformal/spectrwm)
 - Terminal: [alacritty](https://github.com/alacritty/alacritty)
 - Shell: [fish](https://fishshell.com/)
-- Font(s): [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), specifically "Hack Nerd Font" + the standard [Hack](https://sourcefoundry.org/hack/)
+- Font(s): [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), specifically "Hack Nerd Font," & the standard [Hack](https://sourcefoundry.org/hack/)
 - Status Tool (for spectrwm bar): [conky](https://github.com/brndnmtthws/conky)
 - Text Editor: [micro](https://micro-editor.github.io/)
 
