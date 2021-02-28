@@ -40,7 +40,7 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 - Window Manager: [spectrwm](https://github.com/conformal/spectrwm)
 - Terminal: [alacritty](https://github.com/alacritty/alacritty)
 - Shell: [fish](https://fishshell.com/)
-- Font(s): [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), specifically "Hack Nerd Font"
+- Font(s): [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), specifically "Hack Nerd Font" + the standard [Hack](https://sourcefoundry.org/hack/)
 - Status Tool (for spectrwm bar): [conky](https://github.com/brndnmtthws/conky)
 - Text Editor: [micro](https://micro-editor.github.io/)
 
@@ -70,7 +70,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance lxqt-config micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lxappearance lxqt-config micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
 ``` 
 
 ## Firefox
@@ -115,6 +115,9 @@ FreeBSD is stable and sensible. The user has full control of it.
 
 #### Why spectrwm?
 spectrwm is lightweight and fast. It has a plain text configuration file (~/.config/spectrwm/spectrwm.conf) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
+
+#### Why Nord Theme?
+Nord is gentle on my eyes during long hours of scholarly research and writing. It is designed to be soothing rather than bold.
 
 #### Why conky?
 spectrwm has its own status bar, which is what I use -- with conky relaying my system status information. On its own, the spectrwm status bar is capable of displaying information from a shell script (often called `baraction.sh` in examples). However, shell scripts are *not* portable (cross-platform). A conky configuration (~/.conkyrc) *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`. See my ~/.config/spectrwm/spectrwm.conf and ~/.conkyrc for how I have achieved my desired effect.
