@@ -4,6 +4,16 @@ These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spe
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
+## Contents
+- [Licenses](## Licenses)
+- [Clone Instructions](## yadm Clone Instructions)
+- [Basic Tools](## Basic Tools)
+- [Dotfiles Applications List](## Dotfiles Applications List (Alphabetical, Partial)
+- [FreeBSD Package List](## FreeBSD Package List)
+- [System Configuration](## System Configruation (Personal))
+- [FAQ](## FAQ)
+
+## Licenses
 I publish my own modifications and work under the Creative Commons Zero 1.0 Universal license, meaning that they are freely available for (nearly) any use. Other repositories from which I have drawn include:
 - [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - compatible with CC-Zero
 - [tony/spectrwm-config](https://github.com/tony/spectrwm-config) -  no license
@@ -55,7 +65,31 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 ## FreeBSD Package List
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
-```pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm``` 
+```
+pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
+``` 
 
-## Why conky?
+## System Configruation (Personal)
+/etc/rc.conf
+```
+kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module
+dbus_enable="YES"                         # required for many xorg-related utilities
+webcamd_enable="YES"                      # webcam daemon
+cupsd_enable="YES"                        # Common Unix Printing Service (CUPS)
+```
+Requires: 
+```
+pkg install xf86-video-amdgpu webcamd cups
+```
+
+/boot/loader.conf
+```
+vfs.root_mount_always_wait="1"            # partially alleviate CAM boot pause
+sysctlinfo_load="YES"                      
+sysctlbyname_improved_load="YES"
+cuse_load="YES"
+```
+
+## FAQ
+##### Why conky?
 spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable.
