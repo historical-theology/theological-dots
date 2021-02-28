@@ -10,7 +10,6 @@ I publish my own modifications and work under the Creative Commons Zero 1.0 Univ
 - [arcticicestudio/nord](https://github.com/arcticicestudio/nord) - MIT License - n/a (compatible with CC-Zero)
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
 - [trgeiger/nord-kde](https://github.com/trgeiger/nord-kde) - GPL 3.0 License - preserved for ~/.icons/ & ~/.themes/
-* If relevant, note the GPL for ~/.icons/ & ~/.themes/
 
 Wallpapers (in ~/.wallpapers) are not my own, and I cannot claim any right to them. If you wish to use them, you must contact the original artist/project. They include:
 - [Nord Mountains Night 5k](https://hdqwalls.com/nord-mountains-night-5k-wallpaper), which seems to be from the [GMK Nord keycap 'group buy'](https://candykeys.com/group-buys/gmk-nord)
@@ -54,3 +53,6 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger rofi spectrwm xorg wine yadm``` 
+
+## Why conky?
+spectrwm has its own status bar, which I use. It is capable of having information from a shell script displayed inside it. However, shell scripts are *not* portable. Conky *is* (mostly) portable.
