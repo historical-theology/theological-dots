@@ -74,9 +74,7 @@ pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance mic
 
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
-
 - [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
-
 - Preferences --> Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
 
 For *fast* systems, use the Midnight Lizard extension to achieve consistent website theming:
