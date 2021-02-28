@@ -9,6 +9,7 @@ The purpose of this repository, which I manage with [Yet Another Dotfiles Manage
 - [Clone Instructions](#yadm-clone-instructions)
 - [Basic Tools](#basic-tools)
 - [Dotfiles Applications List](#dotfiles-applications-list)
+- [Firefox](#firefox)
 - [FreeBSD Package List](#freebsd-package-list)
 - [System Configuration](#system-configruation)
 - [FAQ](#faq)
@@ -48,6 +49,7 @@ alphabetical, partial
 - alacritty
 - bpytop
 - conky
+- firefox
 - fish
 - kvantum
 - lxappearance 
@@ -67,8 +69,13 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom py37-ranger redshift rofi spectrwm xorg i386-wine yadm
 ``` 
+
+## Firefox
+- [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
+- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) - Choose theme "Nord"
+- Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
 
 ## System Configruation
 This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
