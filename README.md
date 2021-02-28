@@ -4,6 +4,8 @@ These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spe
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
+As time continues, I am likely to add and change many things here, including scripts that I collect, specific settings, and perhaps configurations for additional window managers.
+
 ## Contents
 - [Screenshot](#screenshot)
 - [Licenses](#licenses)
