@@ -78,11 +78,11 @@ Here is what I use to achieve a homogenously Nord Theme web browsing experience 
 - Preferences --> Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
 - [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
 
-For *fast* systems, use the Midnight Lizard extension to achieve consistent website theming:
-- [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) 
+For *fast* systems, use the Midnight Lizard extension for real-time webpage theming:
+- Install [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) 
 - Install the ["Nord" color scheme by Paval Agarkov](https://midnight-lizard.org/schemes/index/full/?q=Nord&side=any&bg=any) from the official Midnight Lizard website
 
-For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in ~/.mozilla/firefox/PROFILE
+For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in `.mozilla/firefox/PROFILE`:
 - Type `about:config` in the URL bar and set `toolkit.legacyUserProfileCustomizations.stylesheets` to "true"
 
 
@@ -114,10 +114,10 @@ cuse_load="YES"
 FreeBSD is stable and sensible. The user has full control of it.
 
 #### Why spectrwm?
-spectrwm is lightweight and fast. It has a plain text configuration file (~/.config/spectrwm/spectrwm.conf) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
+spectrwm is lightweight and fast. It has a plain text configuration file (`~/.config/spectrwm/spectrwm.conf`) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
 
 #### Why Nord Theme?
 Nord is gentle on my eyes during long hours of scholarly research and writing. It is designed to be soothing rather than bold.
 
 #### Why conky?
-spectrwm has its own status bar, which is what I use -- with conky relaying my system status information. On its own, the spectrwm status bar is capable of displaying information from a shell script (often called `baraction.sh` in examples). However, shell scripts are *not* portable (cross-platform). A conky configuration (~/.conkyrc) *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`. See my ~/.config/spectrwm/spectrwm.conf and ~/.conkyrc for how I have achieved my desired effect.
+spectrwm has its own status bar, which is what I use -- with conky relaying my system status information. On its own, the spectrwm status bar is capable of displaying information from a shell script (often called `baraction.sh` in examples). However, shell scripts are *not* portable (cross-platform). A conky configuration (.conkyrc) *is* (mostly) portable. To display conky output in the spectrwm bar, set `bar_output = conky` and make sure to have `+A` in `bar_format`. See my `.config/spectrwm/spectrwm.conf` and .conkyrc for how I have achieved my desired effect.
