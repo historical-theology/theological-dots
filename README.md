@@ -1,5 +1,6 @@
 # Corey Stephan's "Theological Dotfiles"
-## These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, but I have taken care to ensure that they are fitting for GNU/Linux and other *BSDs.
+
+These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, but I have taken care to ensure that they are fitting for GNU/Linux and other *BSDs.
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
@@ -51,4 +52,5 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 
 ## FreeBSD Package List
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
+
 ```pkg install alacritty bpytop conky fish kvantum lxappearance micro neofetch nerd-fonts nitrogen pcmanfm picom ranger rofi spectrwm xorg wine yadm``` 
