@@ -8,7 +8,7 @@
 
 configuration {
 
-	font: "Hack 14";
+	font: "Hack Nerd Font 18";
 	width: 30;
 	line-margin: 10;
 	lines: 6;
