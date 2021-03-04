@@ -34,6 +34,7 @@ I publish my own modifications and work under the Creative Commons Zero 1.0 Univ
 Wallpapers (in .wallpapers) are not my own, and I cannot claim any right to them. If you wish to use them, you must contact the original artist/project. They include:
 - [Nord Mountains Night 5k](https://hdqwalls.com/nord-mountains-night-5k-wallpaper), which seems to be from the [GMK Nord keycap 'group buy'](https://candykeys.com/group-buys/gmk-nord)
 - A modified version of [Daniel Leone's photograph of Poon Hill, Ghode Pani, Nepal](https://unsplash.com/photos/v7daTKlZzaw) from [vsthemes.org](https://vsthemes.org/en/pictures/other/14511-nord-wallpaper-pack.html)
+- A photograph of the [Northern Lights](https://worldaroundmeapp.com/sustainable-tourism-in-scotland/) from "worldaroundmeapp.com"
 
 ## yadm Clone Instructions
 To install these dotfiles on a newly installed OS exactly as they are, all that I need to do is follow these 3 steps:
