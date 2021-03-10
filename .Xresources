@@ -74,3 +74,6 @@ xterm*faceSize:				12
 xterm*selectToClipboard:	true
 xterm*.foreground:  		nord4
 xterm*.background:   		nord0
+
+!! Rofi Settings !!
+rofi.dpi:					130

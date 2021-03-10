@@ -1,8 +1,8 @@
 configuration {
 	width: 30;
-	lines: 6;
+	lines: 10;
 	columns: 2;
-	font: "Hack Nerd Font 16";
+	font: "Hack Nerd Font 12";
 	show-icons: true;
 	line-margin: 10;
 	theme: "~/.config/rofi/nord.rasi";

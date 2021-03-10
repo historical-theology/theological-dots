@@ -76,32 +76,16 @@ xterm*selectToClipboard:	true
 xterm*.foreground:  		nord4
 xterm*.background:   		nord0
 
-
 Xcursor.size: 40
-
-
 Xcursor.size: 50
-
-
 Xcursor.size: 50
-
-
 Xcursor.size: 40
-
-
 Xcursor.size: 30
-
-
 Xcursor.size: 20
-
-
 Xcursor.size: 25
-
-
 Xcursor.size: 25
-
-
 Xcursor.theme: Adwaita
-
-
 Xcursor.size: 30
+
+!! Rofi Settings !!
+rofi.dpi:					130

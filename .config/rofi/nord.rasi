@@ -8,10 +8,10 @@
 
 configuration {
 
-	font: "Hack Nerd Font 18";
+	font: "Hack Nerd Font 12";
 	width: 30;
 	line-margin: 10;
-	lines: 6;
+	lines: 10;
 	columns: 2;
 
     display-ssh:    "";

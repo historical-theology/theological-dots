@@ -1,4 +1,16 @@
-!! Corey Stephan's .Xresources !!
+!!-------------------------------------------------------------------!!
+!!   ____                       ____  _             _
+!!  / ___|___  _ __ ___ _   _  / ___|| |_ ___ _ __ | |__   __ _ _ __
+!! | |   / _ \| '__/ _ \ | | | \___ \| __/ _ \ '_ \| '_ \ / _` | '_ \
+!! | |__| (_) | | |  __/ |_| |  ___) | ||  __/ |_) | | | | (_| | | | |
+!!  \____\___/|_|  \___|\__, | |____/ \__\___| .__/|_| |_|\__,_|_| |_|
+!!                      |___/                |_|
+!!
+!! 			Corey Stephan's HiDPI, Nord Theme .Xdefaults
+!!						(same as .Xresources)		 
+!! 					https://www.coreystephan.com				   	 
+!! 				https://github.com/historical-theology		   		 
+!!-------------------------------------------------------------------!!
 
 !! Basic X Settings for HiDPI Display !!
 Xft.dpi:					130
@@ -58,8 +70,22 @@ Xft.lcdfilter:				lcddefault
 *.color15: nord6
 
 !! xterm Settings !!
-xterm*faceName:				Hack
+xterm*faceName:				Hack Nerd Font
 xterm*faceSize:				12
 xterm*selectToClipboard:	true
 xterm*.foreground:  		nord4
 xterm*.background:   		nord0
+
+Xcursor.size: 40
+Xcursor.size: 50
+Xcursor.size: 50
+Xcursor.size: 40
+Xcursor.size: 30
+Xcursor.size: 20
+Xcursor.size: 25
+Xcursor.size: 25
+Xcursor.theme: Adwaita
+Xcursor.size: 30
+
+!! Rofi Settings !!
+rofi.dpi:					130
