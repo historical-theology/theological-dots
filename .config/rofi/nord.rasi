@@ -4,15 +4,17 @@
  *
  * Nord Color palette imported from https://www.nordtheme.com/
  *
+ * Adjusted by Corey Stephan
+ * https://www.coreystephan.com
  */
 
 configuration {
 
 	font: "Hack Nerd Font 12";
-	width: 30;
+	width: 100;
 	line-margin: 10;
-	lines: 10;
-	columns: 2;
+	lines: 1;
+	columns: 12;
 
     display-ssh:    "";
     display-run:    "";
@@ -53,10 +55,10 @@ configuration {
 }
 
 window {
-    location: center;
-    anchor:   center;
+    location: north;
+    anchor:   north;
     transparency: "screenshot";
-    padding: 10px;
+    padding: 35px;
     border:  0px;
     border-radius: 6px;
 
