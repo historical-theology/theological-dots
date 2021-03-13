@@ -15,4 +15,3 @@ window_type dock
 window_layer bottom
 no_shrink false
 skip_taskbar true
-
