@@ -30,6 +30,7 @@ I publish my own modifications and work under the Creative Commons Zero 1.0 Univ
 - [KiranWells/micro-nord-tc-colors](https://github.com/KiranWells/micro-nord-tc-colors) - MIT License - compatible with CC-Zero
 - [EliverLara/Nordic](https://github.com/EliverLara/Nordic) - GPL 3.0 License - preserved for .icons & .themes
 - [trgeiger/nord-kde](https://github.com/trgeiger/nord-kde) - GPL 3.0 License - preserved for .icons, .themes, and .config/Kvantum
+- [OldTechBloke/dotfiles/.stalonetrayrc](https://gitlab.com/OldTechBloke/dotfiles/-/blob/master/.stalonetrayrc) - MIT License - compatible with CC-Zero
 
 Wallpapers (in .wallpapers) are not my own, and I cannot claim any right to them. If you wish to use them, you must contact the original artist/project. They include:
 - [Nord Mountains Night 5k](https://hdqwalls.com/nord-mountains-night-5k-wallpaper), which seems to be from the [GMK Nord keycap 'group buy'](https://candykeys.com/group-buys/gmk-nord)
@@ -71,6 +72,7 @@ alphabetical, partial
 - redshift
 - rofi
 - spectrwm
+- stalonetray
 - wine
 - yadm
 
@@ -78,7 +80,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine yadm
 ``` 
 
 ## Firefox
