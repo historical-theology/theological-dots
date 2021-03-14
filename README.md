@@ -80,7 +80,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine yadm
 ``` 
 
 ## Firefox
