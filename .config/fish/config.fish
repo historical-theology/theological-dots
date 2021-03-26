@@ -66,18 +66,23 @@ end
 ##		 					    Aliases	    		 		 	 
 ##-------------------------------------------------------------------##
 
-## Common
-
-alias lsd='lsd -A -h'
-
 ## Work
 
 alias vpn='sudo openconnect --protocol=gp --user=9552stephac vpn.marquette.edu'
+
+## Dissertation
+
+alias tom='elinks /home/corey/AquinasOperaOmnia/index.html'
+alias summa='elinks /home/corey/AquinasOperaOmnia/summa/index.html'
+alias tlg='firefox https://stephanus.tlg.uci.edu/index.php#login=true'
+alias newadvent="cd /home/corey/new-advent && elinks index.html"
+
 
 ##-------------------------------------------------------------------##
 ##		 					  Abbreviations	    		 		 	 
 ##-------------------------------------------------------------------##
 
+abbr lsd 'lsd -A -F -h'
 abbr reboot 'sudo reboot'
 abbr poweroff 'sudo poweroff'
 
