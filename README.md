@@ -83,6 +83,17 @@ On a fresh FreeBSD 13 installation, I can run the following to install most of w
 pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine yadm
 ``` 
 
+## Fedora Package List
+On a fresh Fedora 34 installation, this is the equivalent. 
+
+```
+dnf install alacritty bpytop conky firefox fish kvantum lumina-screenshot lxappearance micro neofetch nitrogen pcmanfm-qt picom ranger qt5ct redshift rofi spectrwm stalonetray
+```
+
+NB: On Fedora, Nerd Fonts and YADM must be installed manually:
+- For Nerd Font installation, see: https://ostechnix.com/install-nerd-fonts-to-add-glyphs-in-your-code-on-linux/
+- For YADM installation, see: https://software.opensuse.org//download.html?project=home%3ATheLocehiliosan%3Ayadm&package=yadm
+
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
 - Preferences --> Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
