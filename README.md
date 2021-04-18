@@ -80,7 +80,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine yadm
+pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
 
 ## Fedora Package List
@@ -116,11 +116,15 @@ kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module, loads drm-kmod
 dbus_enable="YES"                         # required for many xorg-related matters
 webcamd_enable="YES"                      # webcam daemon
 cupsd_enable="YES"                        # Common Unix Printing Service (CUPS)
+ntpd_enable=YES"						  # Network time protocol daemon
+ntpd_sync_on_start="YES"				  # Network time protocol deamon, enable large adjustment at start
+ntpdate_enable="YES"
 ```
 Requires: 
 ```
 pkg install drm-kmod xf86-video-amdgpu webcamd cups
 ```
+and `ntpd` enabled as a service (easy option during installation).
 
 #### /boot/loader.conf
 ```
