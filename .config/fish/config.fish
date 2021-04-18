@@ -86,6 +86,7 @@ abbr lsd 'lsd -A -F -h'
 abbr reboot 'sudo reboot'
 abbr poweroff 'sudo poweroff'
 abbr quirk 'xprop | grep WM_CLASS'
+abbr missing 'pkg install -Ay $(make -DBATCH missing)'
 
 ##-------------------------------------------------------------------##
 ##		 				    Puff the OpenBSD Fish
