@@ -80,7 +80,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
 
 ## Fedora Package List
@@ -112,7 +112,7 @@ This is my *personal* system configuration information that does not belong in d
 
 #### /etc/rc.conf
 ```
-kld_list="/boot/modules/amdgpu.ko"        # amgdpu kernel module, loads drm-kmod & is required for xf86-video-amdgpu
+kld_list="/boot/modules/amdgpu.ko fusefs" # amgdpu kernel module, loads drm-kmod & is required for xf86-video-amdgpu + fuse for rclone
 dbus_enable="YES"                         # required for many xorg-related matters
 webcamd_enable="YES"                      # webcam daemon
 cupsd_enable="YES"                        # Common Unix Printing Service (CUPS)
@@ -132,6 +132,11 @@ vfs.root_mount_always_wait="1"            # partially alleviate CAM boot pause
 sysctlinfo_load="YES"                      
 sysctlbyname_improved_load="YES"
 cuse_load="YES"
+```
+
+#### /etc/sysctl.conf
+```
+vfs.usermount=1                           # allows the end user to mount drives, etc., required for rclone
 ```
 
 ## FAQ

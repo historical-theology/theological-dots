@@ -87,6 +87,7 @@ abbr reboot 'sudo reboot'
 abbr poweroff 'sudo poweroff'
 abbr quirk 'xprop | grep WM_CLASS'
 abbr missing 'pkg install -Ay $(make -DBATCH missing)'
+alias updatedb 'sudo /etc/periodic/weekly/310.locate'
 
 ##-------------------------------------------------------------------##
 ##		 				    Puff the OpenBSD Fish

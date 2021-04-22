@@ -71,6 +71,7 @@ intensity=1.00
 saturation=1.00
 click_behavior=0
 shadowless_popup=true
+drag_from_buttons=false
 
 [GeneralColors]
 window.color=#434c5e

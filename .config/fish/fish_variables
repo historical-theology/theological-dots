@@ -2,6 +2,7 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
 SETUVAR _fish_abbr_lsd:lsd\x20\x2dA\x20\x2dF\x20\x2dh
+SETUVAR _fish_abbr_missing:pkg\x20install\x20\x2dAy\x20\x24\x28make\x20\x2dDBATCH\x20missing\x29
 SETUVAR _fish_abbr_poweroff:sudo\x20poweroff
 SETUVAR _fish_abbr_quirk:xprop\x20\x7c\x20grep\x20WM_CLASS
 SETUVAR _fish_abbr_reboot:sudo\x20reboot
