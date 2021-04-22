@@ -14,7 +14,6 @@ As time continues, I am likely to add and change many things here, including scr
 - [Dotfiles Applications List](#dotfiles-applications-list)
 - [Firefox](#firefox)
 - [FreeBSD Package List](#freebsd-package-list)
-- [Fedora Package List](#fedora-package-list)
 - [System Configuration](#system-configruation)
 - [FAQ](#faq)
 
@@ -81,19 +80,8 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
-
-## Fedora Package List
-(Incomplete) On a fresh Fedora 34 installation, this is the equivalent. See notes below.
-
-```
-dnf install alacritty bpytop conky firefox fish kvantum lumina-screenshot lxappearance micro neofetch nitrogen pcmanfm-qt picom ranger qt5ct redshift rofi spectrwm stalonetray
-```
-
-NB: On Fedora, Nerd Fonts and YADM must be installed manually:
-- For Nerd Font installation, see: https://ostechnix.com/install-nerd-fonts-to-add-glyphs-in-your-code-on-linux/
-- For YADM installation, see: https://software.opensuse.org//download.html?project=home%3ATheLocehiliosan%3Ayadm&package=yadm
 
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
