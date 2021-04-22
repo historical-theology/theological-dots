@@ -14,6 +14,7 @@ As time continues, I am likely to add and change many things here, including scr
 - [Dotfiles Applications List](#dotfiles-applications-list)
 - [Firefox](#firefox)
 - [FreeBSD Package List](#freebsd-package-list)
+- [Fedora Package List](#fedora-package-list)
 - [System Configuration](#system-configruation)
 - [FAQ](#faq)
 
@@ -84,7 +85,7 @@ pkg install alacritty bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina
 ``` 
 
 ## Fedora Package List
-On a fresh Fedora 34 installation, this is the equivalent. 
+(Incomplete) On a fresh Fedora 34 installation, this is the equivalent. See notes below.
 
 ```
 dnf install alacritty bpytop conky firefox fish kvantum lumina-screenshot lxappearance micro neofetch nitrogen pcmanfm-qt picom ranger qt5ct redshift rofi spectrwm stalonetray
