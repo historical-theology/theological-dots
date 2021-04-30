@@ -83,6 +83,7 @@ alias newadvent="cd /home/corey/new-advent && elinks index.html"
 ##-------------------------------------------------------------------##
 
 abbr lsd 'lsd -A -F -h'
+abbr lsa 'ls -A -F -H'
 abbr reboot 'sudo reboot'
 abbr poweroff 'sudo poweroff'
 abbr quirk 'xprop | grep WM_CLASS'

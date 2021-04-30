@@ -52,16 +52,19 @@ However, for someone other than me (Corey Stephan), it will be best for you to f
 - Font(s): [Nerd Fonts](https://github.com/ryanoasis/nerd-fonts), specifically "Hack Nerd Font," & the standard [Hack](https://sourcefoundry.org/hack/)
 - Status Tool (for spectrwm bar): [conky](https://github.com/brndnmtthws/conky)
 - Text Editor: [micro](https://micro-editor.github.io/)
+- File Manager: [fff, the [Freak]ing Fast File-Manager](https://github.com/dylanaraps/fff)
 
 ## Dotfiles Applications List
 alphabetical, partial
 - alacritty
 - bpytop
 - conky
+- fff
 - firefox
 - fish
 - kvantum
 - lxappearance
+- lxqt-config
 - micro
 - neofetch
 - nitrogen
@@ -80,7 +83,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty barrier bpytop conky firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier bpytop conky fff firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
 
 ## Firefox

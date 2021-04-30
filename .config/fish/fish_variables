@@ -1,6 +1,7 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_lsa:ls\x20\x2dA\x20\x2dF\x20\x2dH
 SETUVAR _fish_abbr_lsd:lsd\x20\x2dA\x20\x2dF\x20\x2dh
 SETUVAR _fish_abbr_missing:pkg\x20install\x20\x2dAy\x20\x24\x28make\x20\x2dDBATCH\x20missing\x29
 SETUVAR _fish_abbr_poweroff:sudo\x20poweroff

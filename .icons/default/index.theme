@@ -1,5 +1,6 @@
-# This file is written by LXAppearance. Do not edit.
+# Written by lxqt-config-appearance
 [Icon Theme]
 Name=Default
-Comment=Default Cursor Theme
+Comment=Default cursor theme
 Inherits=Adwaita
+Size=30

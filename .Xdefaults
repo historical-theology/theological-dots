@@ -84,8 +84,11 @@ Xcursor.size: 30
 Xcursor.size: 20
 Xcursor.size: 25
 Xcursor.size: 25
-Xcursor.theme: Adwaita
 Xcursor.size: 30
 
 !! Rofi Settings !!
 rofi.dpi:					130
+
+Xcursor.theme: Adwaita
+
+Xcursor.size: 30
