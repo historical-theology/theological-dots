@@ -76,6 +76,8 @@ alias tom='elinks /home/corey/AquinasOperaOmnia/index.html'
 alias summa='elinks /home/corey/AquinasOperaOmnia/summa/index.html'
 alias tlg='firefox https://stephanus.tlg.uci.edu/index.php#login=true'
 alias newadvent="cd /home/corey/new-advent && elinks index.html"
+alias diss='fff /home/corey/Dissertation'
+alias drive='fff /home/corey/Drive'
 
 
 ##-------------------------------------------------------------------##
@@ -88,7 +90,8 @@ abbr reboot 'sudo reboot'
 abbr poweroff 'sudo poweroff'
 abbr quirk 'xprop | grep WM_CLASS'
 abbr missing 'pkg install -Ay $(make -DBATCH missing)'
-alias updatedb 'sudo /etc/periodic/weekly/310.locate'
+abbr updatedb 'sudo /etc/periodic/weekly/310.locate'
+abbr cooler 'sudo liquidctl set pump speed 20 && sudo liquidctl set fan speed 10 && sudo liquidctl set sync color fading 7851a9 ffffff'
 
 ##-------------------------------------------------------------------##
 ##		 				    Puff the OpenBSD Fish

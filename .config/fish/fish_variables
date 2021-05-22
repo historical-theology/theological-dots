@@ -1,12 +1,14 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
 SETUVAR __fish_initialized:3100
+SETUVAR _fish_abbr_cooler:sudo\x20liquidctl\x20set\x20pump\x20speed\x2020\x20\x26\x26\x20sudo\x20liquidctl\x20set\x20fan\x20speed\x2010\x20\x26\x26\x20sudo\x20liquidctl\x20set\x20sync\x20color\x20fading\x207851a9\x20ffffff
 SETUVAR _fish_abbr_lsa:ls\x20\x2dA\x20\x2dF\x20\x2dH
 SETUVAR _fish_abbr_lsd:lsd\x20\x2dA\x20\x2dF\x20\x2dh
 SETUVAR _fish_abbr_missing:pkg\x20install\x20\x2dAy\x20\x24\x28make\x20\x2dDBATCH\x20missing\x29
 SETUVAR _fish_abbr_poweroff:sudo\x20poweroff
 SETUVAR _fish_abbr_quirk:xprop\x20\x7c\x20grep\x20WM_CLASS
 SETUVAR _fish_abbr_reboot:sudo\x20reboot
+SETUVAR _fish_abbr_updatedb:sudo\x20/etc/periodic/weekly/310\x2elocate
 SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2dr
 SETUVAR fish_color_command:81a1c1

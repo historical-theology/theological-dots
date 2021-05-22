@@ -59,6 +59,7 @@ alphabetical, partial
 - alacritty
 - bpytop
 - conky
+- dsblogoutmgr
 - fff
 - firefox
 - fish
@@ -83,7 +84,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty barrier bpytop conky fff firefox-esr fish hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config micro neofetch nerd-fonts nitrogen pcmanfm-qt picom py37-ranger qt5ct rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier bpytop conky dsblogoutmgr fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
 
 ## Firefox
@@ -129,6 +130,11 @@ cuse_load="YES"
 #### /etc/sysctl.conf
 ```
 vfs.usermount=1                           # allows the end user to mount drives, etc., required for rclone
+```
+
+#### /etc/mail/aliases
+```
+root: [name@domain.tld]					  # routes mail agent messages intended for root to an actual address
 ```
 
 ## FAQ

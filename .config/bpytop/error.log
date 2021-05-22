@@ -8,3 +8,23 @@ Traceback (most recent call last):
   File "/usr/local/bin/bpytop", line 1319, in refresh
     for f in os.listdir(d):
 FileNotFoundError: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+05/05/21 (14:11:13) | ERROR: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 1319, in refresh
+    for f in os.listdir(d):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+05/05/21 (14:12:16) | ERROR: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 1319, in refresh
+    for f in os.listdir(d):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+06/05/21 (14:00:43) | ERROR: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 1319, in refresh
+    for f in os.listdir(d):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+06/05/21 (14:20:47) | ERROR: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
+Traceback (most recent call last):
+  File "/usr/local/bin/bpytop", line 1319, in refresh
+    for f in os.listdir(d):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/corey/.config/bpytop/themes'
