@@ -84,7 +84,7 @@ alphabetical, partial
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty barrier bpytop conky dsblogoutmgr fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
 
 ## Firefox
@@ -105,13 +105,14 @@ This is my *personal* system configuration information that does not belong in d
 
 #### /etc/rc.conf
 ```
-kld_list="/boot/modules/amdgpu.ko fusefs" # amgdpu kernel module, loads drm-kmod & is required for xf86-video-amdgpu + fuse for rclone
+kld_list="/boot/modules/amdgpu.ko fusefs" # amgdpu kernel module, loads drm-kmod & is required for xf86-video-amdgpu + fuse for rclone & DSBMD
 dbus_enable="YES"                         # required for many xorg-related matters
 webcamd_enable="YES"                      # webcam daemon
 cupsd_enable="YES"                        # Common Unix Printing Service (CUPS)
 ntpd_enable=YES"						  # Network time protocol daemon
 ntpd_sync_on_start="YES"				  # Network time protocol deamon, enable large adjustment at start
 ntpdate_enable="YES"
+dsbmd_enable="YES"						  # DSBMD, an automounting daemon for FreeBSD (for which DSBMC is a Qt frontend)
 ```
 Requires: 
 ```
@@ -129,7 +130,7 @@ cuse_load="YES"
 
 #### /etc/sysctl.conf
 ```
-vfs.usermount=1                           # allows the end user to mount drives, etc., required for rclone
+vfs.usermount=1                           # allows the end user to mount drives, etc., required for rclone & DSBMD
 ```
 
 #### /etc/mail/aliases
