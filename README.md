@@ -1,6 +1,6 @@
 # Corey Stephan's "Theological Dotfiles"
 
-These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD and Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
+These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD and Debian/Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
