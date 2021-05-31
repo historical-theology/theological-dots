@@ -1,6 +1,6 @@
 # Corey Stephan's "Theological Dotfiles"
 
-These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, but I have taken care to ensure that they are fitting for GNU/Linux and other *BSDs.
+These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD and Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
@@ -18,7 +18,6 @@ As time continues, I am likely to add and change many things here, including scr
 - [FAQ](#faq)
 
 ## Screenshot
-
 ![Screenshot](/.screenshots/theological-dots-1.png?raw=true "Screenshot")
 
 ## Licenses
@@ -59,7 +58,6 @@ alphabetical, partial
 - alacritty
 - bpytop
 - conky
-- dsblogoutmgr
 - fff
 - firefox
 - fish
@@ -86,6 +84,7 @@ On a fresh FreeBSD 13 installation, I can run the following to install most of w
 ```
 pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
+Other Unix-like operating systems require different installation commands. For example, in Ubuntu (as of 20.04 LTS), fff and Nerd Fonts both most be installed by scripts from their respective GitHub repositories, and compton is an acceptable substitute for picom (its newer fork).
 
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
@@ -101,7 +100,7 @@ For *slow* systems and/or to conserve battery life on laptops, use the custom Us
 
 
 ## System Configruation
-This is my *personal* system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
+This is my *personal* FreeBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
 
 #### /etc/rc.conf
 ```
@@ -139,8 +138,11 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 ```
 
 ## FAQ
-#### Why do you use FreeBSD?
+#### Why do you like FreeBSD?
 FreeBSD is stable and sensible. The user has full control of it.
+
+#### How do you recommend installing Debian or Ubuntu GNU/Linux for use with these dotfiles?
+The best way to install Ubuntu GNU/Linux for use with these dotfiles or a similarly minimalistic tiling window manager setup is to use the Mini ISO. Since Canonical has decided to stop building this .iso after 20.04, a plain Debian installation will probably be the best option overall in the near future.
 
 #### Why do you use spectrwm?
 spectrwm is lightweight and fast. It has a plain text configuration file (`~/.config/spectrwm/spectrwm.conf`) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
