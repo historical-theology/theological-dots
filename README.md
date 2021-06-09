@@ -134,23 +134,30 @@ On a fresh Debian or Ubuntu Mini Iso installation, I can run the following to in
 ```
 sudo apt install barrier compton conky elinks firefox fish font-manager htop lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct qt5-style-kvantum qpdfview ranger rclone rclone-browser redshift rofi spectrwm stalonetray xclip xorg yadm``` 
 ```
+
 #### Alacritty
+
+```
 sudo add-apt-repsitory ppa:aslatter/ppa
 sudo apt install alacritty
 ```
+
 #### fff
+
 ```
 git clone https://github.com/dylanaraps/fff
 cd fff
 sudo make install
 ```
 #### Nerd Fonts
+
 ```
 git clone https://github.com/ryanoasis/nerd-fonts
 cd nerd-fonts
 ./install.sh
 ```
 #### Zotero
+
 ```
 wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
 sudo apt update
