@@ -12,9 +12,9 @@ As time continues, I am likely to add and change many things here, including scr
 - [Clone Instructions](#yadm-clone-instructions)
 - [Basic Tools](#basic-tools)
 - [Dotfiles Applications List](#dotfiles-applications-list)
+- [FreeBSD](#freebsd)
+- [Debian/Ubuntu](#debuntu)
 - [Firefox](#firefox)
-- [FreeBSD Package List](#freebsd-package-list)
-- [System Configuration](#system-configruation)
 - [FAQ](#faq)
 
 ## Screenshot
@@ -78,28 +78,16 @@ alphabetical, partial
 - wine
 - yadm
 
-## FreeBSD Package List
+## FreeBSD
+
+### FreeBSD Package List
 On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr elinks fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
 ``` 
-Other Unix-like operating systems require different installation commands. For example, in Ubuntu (as of 20.04 LTS), fff and Nerd Fonts both most be installed by scripts from their respective GitHub repositories, and compton is an acceptable substitute for picom (its newer fork).
 
-## Firefox
-Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
-- Preferences --> Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
-- [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
-
-For *fast* systems, use the Midnight Lizard extension for real-time webpage theming:
-- Install [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) 
-- Install the ["Nord" color scheme by Paval Agarkov](https://midnight-lizard.org/schemes/index/full/?q=Nord&side=any&bg=any) from the official Midnight Lizard website
-
-For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in `.mozilla/firefox/PROFILE`:
-- Type `about:config` in the URL bar and set `toolkit.legacyUserProfileCustomizations.stylesheets` to "true"
-
-
-## System Configruation
+### FreeBSD System Configruation
 This is my *personal* FreeBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
 
 #### /etc/rc.conf
@@ -136,6 +124,51 @@ vfs.usermount=1                           # allows the end user to mount drives,
 ```
 root: [name@domain.tld]					  # routes mail agent messages intended for root to an actual address
 ```
+
+## Debuntu 
+
+### Debian/Ubuntu GNU/Linux Package List
+
+On a fresh Debian or Ubuntu Mini Iso installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
+
+```
+sudo apt install barrier compton conky elinks firefox fish font-manager htop lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct qt5-style-kvantum qpdfview ranger rclone rclone-browser redshift rofi spectrwm stalonetray xclip xorg yadm``` 
+```
+#### Alacritty
+sudo add-apt-repsitory ppa:aslatter/ppa
+sudo apt install alacritty
+```
+#### fff
+```
+git clone https://github.com/dylanaraps/fff
+cd fff
+sudo make install
+```
+#### Nerd Fonts
+```
+git clone https://github.com/ryanoasis/nerd-fonts
+cd nerd-fonts
+./install.sh
+```
+#### Zotero
+```
+wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/install.sh | sudo bash
+sudo apt update
+sudo apt install zotero
+```
+
+## Firefox
+Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
+- Preferences --> Colors: Text: #ECEFF4, Background: #2E3440, Unvisited Links: #88C0D0, Visited Links: #B48EAD
+- [Nord Theme by Crozbo](https://addons.mozilla.org/en-US/firefox/addon/nord-theme/)
+
+For *fast* systems, use the Midnight Lizard extension for real-time webpage theming:
+- Install [Midnight Lizard](https://addons.mozilla.org/en-US/firefox/addon/midnight-lizard-quantum/) 
+- Install the ["Nord" color scheme by Paval Agarkov](https://midnight-lizard.org/schemes/index/full/?q=Nord&side=any&bg=any) from the official Midnight Lizard website
+
+For *slow* systems and/or to conserve battery life on laptops, use the custom UserChrome.css from daaniiieel that I have in `.mozilla/firefox/PROFILE`:
+- Type `about:config` in the URL bar and set `toolkit.legacyUserProfileCustomizations.stylesheets` to "true"
+
 
 ## FAQ
 #### Why do you like FreeBSD?

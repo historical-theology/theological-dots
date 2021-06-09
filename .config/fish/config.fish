@@ -72,12 +72,13 @@ alias vpn='sudo openconnect --protocol=gp --user=9552stephac vpn.marquette.edu'
 
 ## Dissertation
 
-alias tom='elinks /home/corey/AquinasOperaOmnia/index.html'
-alias summa='elinks /home/corey/AquinasOperaOmnia/summa/index.html'
+alias tom='elinks /home/corey/repos/AquinasOperaOmnia/index.html'
+alias summa='elinks /home/corey/repos/AquinasOperaOmnia/summa/index.html'
 alias tlg='firefox https://stephanus.tlg.uci.edu/index.php#login=true'
-alias newadvent="cd /home/corey/new-advent && elinks index.html"
-alias diss='fff /home/corey/Dissertation'
+alias newadvent="cd /home/corey/repos/new-advent && elinks index.html"
+alias diss='fff /home/corey/Drive/Marquette\ Documents/Dissertation'
 alias drive='fff /home/corey/Drive'
+alias latin='cd /home/corey/repos/whitakers-words && bin/words'
 
 
 ##-------------------------------------------------------------------##
@@ -92,6 +93,12 @@ abbr quirk 'xprop | grep WM_CLASS'
 abbr missing 'pkg install -Ay $(make -DBATCH missing)'
 abbr updatedb 'sudo /etc/periodic/weekly/310.locate'
 abbr cooler 'sudo liquidctl set pump speed 20 && sudo liquidctl set fan speed 10 && sudo liquidctl set sync color fading 7851a9 ffffff'
+
+
+##-------------------------------------------------------------------##
+##		 				Custom Application Launches	    		 		 	 
+##-------------------------------------------------------------------##
+abbr spotify 'spotify --force-device-scale-factor=1.5 & disown & exit'
 
 ##-------------------------------------------------------------------##
 ##		 				    Puff the OpenBSD Fish

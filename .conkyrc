@@ -19,11 +19,14 @@ use_spacer none
 
 # Move to TEXT for laptop
 # ⏻  $battery_percent % \
+
+# Replace pa_sink_volume with mixer for *BSD
 #  醙${mixer Vol}% \
 
 
 TEXT
- |   ${uptime_short}  |  \
-  $mem/$memmax  |  \
- ﲾ ${cpu cpu0}%  |  \
-  ${fs_used /}/${fs_size /} \
+     ${uptime_short}    \
+  $mem / $memmax     \
+ ﲾ ${cpu cpu0}%     \
+  ${fs_used /} / ${fs_size /}     \
+ 醙 ${pa_sink_volume}% \

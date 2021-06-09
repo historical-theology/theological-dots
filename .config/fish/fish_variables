@@ -8,6 +8,7 @@ SETUVAR _fish_abbr_missing:pkg\x20install\x20\x2dAy\x20\x24\x28make\x20\x2dDBATC
 SETUVAR _fish_abbr_poweroff:sudo\x20poweroff
 SETUVAR _fish_abbr_quirk:xprop\x20\x7c\x20grep\x20WM_CLASS
 SETUVAR _fish_abbr_reboot:sudo\x20reboot
+SETUVAR _fish_abbr_spotify:spotify\x20\x2d\x2dforce\x2ddevice\x2dscale\x2dfactor\x3d1\x2e5\x20\x26\x20disown\x20\x26\x20exit
 SETUVAR _fish_abbr_updatedb:sudo\x20/etc/periodic/weekly/310\x2elocate
 SETUVAR fish_color_autosuggestion:4c566a
 SETUVAR fish_color_cancel:\x2dr
