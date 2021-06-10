@@ -14,6 +14,7 @@ As time continues, I am likely to add and change many things here, including scr
 - [Dotfiles Applications List](#dotfiles-applications-list)
 - [FreeBSD](#freebsd)
 - [Debian/Ubuntu](#debuntu)
+- [Arch/Manjaro](#manjaro)
 - [Firefox](#firefox)
 - [FAQ](#faq)
 
@@ -132,7 +133,7 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 On a fresh Debian or Ubuntu Mini Iso installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-sudo apt install barrier compton conky elinks firefox fish font-manager htop lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct qt5-style-kvantum qpdfview ranger rclone rclone-browser redshift rofi spectrwm stalonetray xclip xorg yadm``` 
+sudo apt install barrier compton conky elinks firefox fish font-manager htop libreoffice lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct qt5-style-kvantum qpdfview ranger rclone rclone-browser redshift rofi spectrwm stalonetray xclip xorg yadm``` 
 ```
 
 #### Alacritty
@@ -163,6 +164,22 @@ wget -qO- https://github.com/retorquere/zotero-deb/releases/download/apt-get/ins
 sudo apt update
 sudo apt install zotero
 ```
+
+## Manjaro 
+
+### Arch/Manjaro Package List
+
+On a fresh Arch or Manjaro Architect installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
+
+
+```
+pacman -S alacritty barrier conky elinks firefox font-manager htop kvantum-qt5 libreoffice-still lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct ranger rclone redshift rofi spectrwm stalonetray xclip xorg
+```
+
+```
+pamac build rclone-browser yadm zotero
+```
+
 
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
