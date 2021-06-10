@@ -173,13 +173,18 @@ On a fresh Arch or Manjaro Architect installation, I can run the following to in
 
 
 ```
-pacman -S alacritty barrier conky elinks firefox font-manager htop kvantum-qt5 libreoffice-still lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct ranger rclone redshift rofi spectrwm stalonetray xclip xorg
+pacman -S alacritty barrier bibletime conky elinks firefox font-manager htop kvantum-qt5 libreoffice-still lxappearance lxqt-config micro neofetch nitrogen pavucontrol-qt pcmanfm-qt qt5ct ranger rclone redshift rofi spectrwm stalonetray xclip xorg
 ```
 
 ```
-pamac build rclone-browser yadm zotero
+pamac build latin-words nerd-fonts-complete rclone-browser yadm zotero
 ```
 
+Bibles
+
+```
+pamac grb-git kjv-git vul-git
+```
 
 ## Firefox
 Here is what I use to achieve a homogenously Nord Theme web browsing experience in Firefox:
