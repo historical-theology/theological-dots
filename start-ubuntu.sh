@@ -14,11 +14,28 @@
 ## 				https://github.com/historical-theology		   		 
 ##-------------------------------------------------------------------##
 
+# Compositor
 compton &
+
+# Wallpaper
 nitrogen --restore &
+
+# Redshift
 redshift &
+
+# CPU Cooler
 liquidctl set pump speed 20 &
 liquidctl set fan speed 10 &
 liquidctl set sync color fading 7851a9 ffffff &
+
+# Policy Kit
+lxqt-policykit-agent &
+
+# Barrier
 barriers --name corey-ubuntu --no-tray --enable-crypto --restart --config /home/corey/barrier.conf &
+
+# US - Polytonic Greek Alt+Shift Toggle
+setxkbmap -layout 'us,gr' -option 'grp:alt_shift_toggle' -variant ',polytonic'
+
+# Insync
 insync start &
