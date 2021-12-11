@@ -11,22 +11,16 @@
 ## 				https://github.com/historical-theology		   		 
 ##-------------------------------------------------------------------##
 
-out_to_x no
-out_to_console yes
-update_interval 1.0
-total_run_times 0
-use_spacer none
+conky.config = {
+out_to_x = false,
+out_to_console = true,
+update_interval = 1.0,
+total_run_times = 0,
+use_spacer = none,
+own_window_type = override
+}
 
-# Move to TEXT for laptop
-# ⏻  $battery_percent % \
+conky.text = [[ ${uptime_short} |  $mem/$memmax | ﲾ ${cpu cpu0}% |  ${fs_used}/${fs_size} | ⏻ $battery_percent%]]
 
 # Replace pa_sink_volume with mixer for *BSD
 #  醙${mixer Vol}% \
-
-
-TEXT
-     ${uptime_short}    \
-  $mem / $memmax     \
- ﲾ ${cpu cpu0}%     \
-  ${fs_used /} / ${fs_size /}     \
- 醙 ${pa_sink_volume}% \
