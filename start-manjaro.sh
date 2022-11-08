@@ -13,11 +13,13 @@
 ## 					https://www.coreystephan.com				   	 
 ## 				https://github.com/historical-theology		   		 
 ##-------------------------------------------------------------------##
-
+# export QT_QPA_PLATFORMTHEME=qt5ct
+# export QT_AUTO_SCREEN_SCALE_FACTOR=1
+# export QT_FONT_DPI=90
 picom &
 nitrogen --restore &
-/usr/lib/geoclue-2.0/demos/agent &
-redshift &
+# /usr/lib/geoclue-2.0/demos/agent &
+# redshift &
 lxqt-policykit-agent &
 # lxqt-notificationd &
 xinput set-prop "SynPS/2 Synaptics TouchPad" "libinput Accel Speed" 0.6 &
