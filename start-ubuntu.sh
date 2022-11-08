@@ -38,4 +38,7 @@ barriers --name corey-ubuntu --no-tray --enable-crypto --restart --config /home/
 setxkbmap -layout 'us,gr' -option 'grp:alt_shift_toggle' -variant ',polytonic'
 
 # Insync
-insync start &
+# insync start &
+
+# pCloud
+# rclone mount pcloud:/ /home/corey/pcloud/ --vfs-cache-mode full &
