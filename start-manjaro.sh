@@ -27,3 +27,4 @@ xinput set-prop "TPPS/2 Elan TrackPoint" "libinput Accel Speed" -0.2 &
 # liquidctl set sync color fading 7851a9 ffffff &
 # barrierc --name corey-laptop --no-tray --restart --enable-crypto 192.168.50.244:24800 &
 # insync start &
+# rclone mount pcloud:/ /home/corey/pcloud/ --vfs-cache-mode full &
