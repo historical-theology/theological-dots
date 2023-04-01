@@ -155,7 +155,7 @@ cd Kvantum/Kvantum
 mkdir build && cd build
 cmake -DCMAKE_PREFIX_PATH=/usr/local/lib/qt5/cmake/ ../
 make
-make install
+doas make install
 ```
 
 ### OpenBSD System Configuration
