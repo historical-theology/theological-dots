@@ -134,7 +134,7 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 On a fresh OpenBSD 7.2+ installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg_add alacritty bash conky fff firefox-esr fish git hack-fonts lxappearance micro mupdf nitrogen pcmanfm-qt picom ranger qt5ct rclone rclone-browser redshift rofi spectrwm
+pkg_add alacritty bash conky fff firefox-esr fish git hack-fonts lxappearance micro mupdf nitrogen pcmanfm-qt picom ranger qt5ct rclone rclone-browser redshift rofi spectrwm unzip
 ```
 
 #### yadm
@@ -192,6 +192,13 @@ kern.video.record=1
 2) Allow regular user to access video devices.
 
 `doas chown $USER /dev/video*`
+
+#### Hack Nerd Font
+
+1) Download Hack Nerd Font: https://www.nerdfonts.com/font-downloads
+2) `unzip Hack`
+3) `doas cp ~/Downloads/Hack/*.ttf /usr/local/share/fonts/`
+4) `doas fc-cache`
 
 ## Debuntu 
 
