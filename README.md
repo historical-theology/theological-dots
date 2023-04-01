@@ -191,7 +191,7 @@ kern.video.record=1
 
 2) Allow regular user to access video device.
 
-`sudo chown [user] /dev/video*`
+`doas chown $USER /dev/video*`
 
 ## Debuntu 
 
