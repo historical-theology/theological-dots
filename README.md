@@ -1,6 +1,6 @@
 # Corey Stephan's "Theological Dotfiles"
 
-These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, OpenBSD, and Debian/Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
+These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, OpenBSD, and Debian GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes. I also have tested and used them on GNU/Linux distributions other than Debian, especially Manjaro.
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
@@ -76,17 +76,16 @@ alphabetical, partial
 - redshift
 - rofi
 - spectrwm
-- stalonetray
 - wine
 - yadm
 
 ## FreeBSD
 
 ### FreeBSD Package List
-On a fresh FreeBSD 13 installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
+On a fresh FreeBSD 13+ installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr elinks fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm stalonetray xorg i386-wine xclip yadm
+pkg install alacritty barrier conky dsbmc dsblogoutmgr elinks fff firefox-esr fish font-manager hack-font Kvantum-qt5 lumina-calculator lumina-screenshot lxappearance lxqt-config metalock micro neofetch nerd-fonts nitrogen pavucontrol-qt pcmanfm-qt picom py37-ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm xorg xclip yadm
 ``` 
 
 ### FreeBSD System Configruation
@@ -131,9 +130,19 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 
 ## OpenBSD
 
+### OpenBSD Package List
+On a fresh OpenBSD 7.2+ installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
+
+```
+pkg_add alacritty conky fff firefox-esr fish gcc hack-fonts lxappearance lxqt-config micro nitrogen pcmanfm-qt picom ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm xorg xclip yadm
+```
+
+### OpenBSD System Configuration
+
 This is my *personal* OpenBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what might be important to add to various system configuration files for various desktop OpenBSD installations. 
 
 A few lines herein only matter for running OpenBSD on a ThinkPad (I use an X270) or other laptop computer.
+
 
 #### /etc/doas.conf
 
