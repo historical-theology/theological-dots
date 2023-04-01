@@ -1,6 +1,6 @@
 # Corey Stephan's "Theological Dotfiles"
 
-These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD and Debian/Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
+These are my personal [Nord Theme](https://www.nordtheme.com/) dotfiles for [spectrwm](https://github.com/conformal/spectrwm) (a small, dynamic tiling window manager for X11). I have built them in (and chiefly for) FreeBSD, OpenBSD, and Debian/Ubuntu GNU/Linux, but I have taken care to ensure that they are fitting for other Unix-like OSes.
 
 The purpose of this repository, which I manage with [Yet Another Dotfiles Manager (yadm)](https://yadm.io/), is for me to keep my entire configuration in one central location, allowing it to function as my own easy-to-install 'desktop environment' of a kind.
 
@@ -13,6 +13,7 @@ As time continues, I am likely to add and change many things here, including scr
 - [Basic Tools](#basic-tools)
 - [Dotfiles Applications List](#dotfiles-applications-list)
 - [FreeBSD](#freebsd)
+- [OpenBSD](#openbsd)
 - [Debian/Ubuntu](#debuntu)
 - [Arch/Manjaro](#manjaro)
 - [Firefox](#firefox)
@@ -89,7 +90,9 @@ pkg install alacritty barrier bpytop conky dsbmc dsblogoutmgr elinks fff firefox
 ``` 
 
 ### FreeBSD System Configruation
-This is my *personal* FreeBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what is important to add to /etc/rc.conf for a desktop FreeBSD installation.
+This is my *personal* FreeBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what might be important to add to /etc/rc.conf for various desktop FreeBSD installations. 
+
+A few lines herein only matter when running an AMD graphics card.
 
 #### /etc/rc.conf
 ```
@@ -124,6 +127,30 @@ vfs.usermount=1                           # allows the end user to mount drives,
 #### /etc/mail/aliases
 ```
 root: [name@domain.tld]					  # routes mail agent messages intended for root to an actual address
+```
+
+## OpenBSD
+
+This is my *personal* OpenBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what might be important to add to various system configuration files for various desktop OpenBSD installations. 
+
+A few lines herein only matter for running OpenBSD on a ThinkPad (I use an X270) or other laptop computer.
+
+#### /etc/doas.conf
+
+Enable root command access for the non-root user on a single-user system.
+
+```
+permit persist [username] as root
+```
+
+#### /etc/hostname.iwm0
+
+Automatically connect to desired WiFi networks.
+
+```
+join "SSID1" wpakey "password1"
+join "SSID2" wpakey "password2"
+inet autoconf                 
 ```
 
 ## Debuntu 
@@ -200,11 +227,11 @@ For *slow* systems and/or to conserve battery life on laptops, use the custom Us
 
 
 ## FAQ
-#### Why do you like FreeBSD?
-FreeBSD is stable and sensible. The user has full control of it.
+#### Why do you like FreeBSD and OpenBSD?
+FreeBSD and OpenBSD are stable and sensible. The user has full control of them.
 
 #### How do you recommend installing Debian or Ubuntu GNU/Linux for use with these dotfiles?
-The best way to install Ubuntu GNU/Linux for use with these dotfiles or a similarly minimalistic tiling window manager setup is to use the Mini ISO. Since Canonical has decided to stop building this .iso after 20.04, a plain Debian installation will probably be the best option overall in the near future.
+A plain Debian installation is the best option overall. A minimalist Ubuntu Server installation should work, too, but I have not tested that.
 
 #### Why do you use spectrwm?
 spectrwm is lightweight and fast. It has a plain text configuration file (`~/.config/spectrwm/spectrwm.conf`) that makes it easy to customize. It achieves almost everything that I might desire in a tiling window manager.
