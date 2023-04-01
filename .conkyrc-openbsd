@@ -1,0 +1,8 @@
+-- [DELETE] Corey Stephan's Conky Configuration file for OpenBSD on a ThinkPad
+out_to_x no
+out_to_console yes
+update_interval 1.0
+total_run_times 0
+use_spacer none
+TEXT
+ ${uptime_short} |  $mem/$memmax | ﲾ ${cpu cpu0}% |  ${fs_used}/${fs_size} | ⏻ ${apm_battery_lifel}
