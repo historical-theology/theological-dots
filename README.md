@@ -171,6 +171,28 @@ join "SSID2" wpakey "password2"
 inet autoconf                 
 ```
 
+#### Enable Automatic Power Management (Laptops)
+
+```
+rcctl enable apmd
+rcctl set apmd flags -A
+rcctl start apmd
+````
+
+#### Audio & Video
+1) Enable both audio and video recording.
+
+/etc/systcl.conf
+
+```
+kern.audio.record=1
+kern.video.record=1
+```
+
+2) Allow regular user to access video device.
+
+`sudo chown [user] /dev/video*`
+
 ## Debuntu 
 
 ### Debian/Ubuntu GNU/Linux Package List
