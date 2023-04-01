@@ -185,10 +185,16 @@ inet autoconf
 
 #### Enable Automatic Power Management (Laptops)
 
+Allow OpenBSD's default apmd for suspend/resume and similar while keeping it out of the way for the better obsdfreqd userland program to manage CPU frequencies and prohibit unnecessary battery drain.
+
 ```
+pkg_add obsdfreqd
 rcctl enable apmd
-rcctl set apmd flags -A
+rcctl set apmd flags -L 
 rcctl start apmd
+rcctl enable obsdfreqd
+rcctl start obsdfreqd 
+
 ````
 
 #### Audio & Video
