@@ -189,7 +189,7 @@ kern.audio.record=1
 kern.video.record=1
 ```
 
-2) Allow regular user to access video device.
+2) Allow regular user to access video devices.
 
 `doas chown $USER /dev/video*`
 
