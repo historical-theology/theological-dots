@@ -185,7 +185,9 @@ inet autoconf
 
 #### Enable Automatic Power Management (Laptops)
 
-Allow OpenBSD's default apmd for suspend/resume and similar while keeping it out of the way for the better obsdfreqd userland program to manage CPU frequencies and prohibit unnecessary battery drain.
+Allow OpenBSD's default apmd for suspend/resume and similar while keeping it out of the way for the better obsdfreqd userland program to manage CPU frequencies and prohibit unnecessary battery drain. 
+
+I like to set my CPU thermal limit values to be quite low on my laptop to avoid fan ramping and to save battery life by keeping CPU frequencies low when on battery power rather than A/C. -T 75,45 sets the maximum allowed CPU temperature to 80 C on A/C and 45 C on battery.
 
 ```
 pkg_add obsdfreqd
@@ -193,6 +195,7 @@ rcctl enable apmd
 rcctl set apmd flags -L 
 rcctl start apmd
 rcctl enable obsdfreqd
+[rcctl set obsdfreqd flags -T 80,50]
 rcctl start obsdfreqd 
 
 ````
