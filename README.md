@@ -146,6 +146,18 @@ curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master
 chmod a+x /usr/local/bin/yadm
 ```
 
+#### Kvantum
+This requires `cmake` (`pkg_add cmake`).
+
+```
+git clone https://github.com/tsujan/Kvantum
+cd Kvantum/Kvantum
+mkdir build && cd build
+cmake -DCMAKE_PREFIX_PATH=/usr/local/lib/qt5/cmake/ ../
+make
+make install
+```
+
 ### OpenBSD System Configuration
 
 This is my *personal* OpenBSD system configuration information that does not belong in dotfiles. Others might appreciate having a short checklist, especially for what might be important to add to various system configuration files for various desktop OpenBSD installations. 
