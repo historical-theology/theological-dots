@@ -134,7 +134,16 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 On a fresh OpenBSD 7.2+ installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg_add alacritty conky fff firefox-esr fish gcc hack-fonts lxappearance lxqt-config micro nitrogen pcmanfm-qt picom ranger qt5ct qpdfview rclone rclone-browser redshift rofi spectrwm xorg xclip yadm
+pkg_add alacritty bash conky fff firefox-esr fish git hack-fonts lxappearance micro mupdf nitrogen pcmanfm-qt picom ranger qt5ct rclone rclone-browser redshift rofi spectrwm
+```
+
+#### yadm
+
+As non-root (main) user, with both bash and git already installed, execute the following two commands:
+
+```
+curl -fLo /usr/local/bin/yadm https://github.com/TheLocehiliosan/yadm/raw/master/yadm
+chmod a+x /usr/local/bin/yadm
 ```
 
 ### OpenBSD System Configuration
