@@ -203,7 +203,7 @@ rcctl start obsdfreqd
 #### Audio & Video
 1) Enable both audio and video recording.
 
-/etc/systcl.conf
+/etc/sysctl.conf
 
 ```
 kern.audio.record=1
