@@ -147,7 +147,7 @@ chmod a+x /usr/local/bin/yadm
 ```
 
 #### Kvantum
-This requires `gcc`, `qt5`, and `cmake` (`pkg_add gcc qt5 cmake`).
+On OpenBSD, this requires `gcc`, `qt5`, `kwindowsystem`, and `cmake` (`pkg_add gcc qt5 kwindowsystem cmake`).
 
 ```
 git clone https://github.com/tsujan/Kvantum
