@@ -147,7 +147,7 @@ chmod a+x /usr/local/bin/yadm
 ```
 
 #### Kvantum
-This requires `cmake` (`pkg_add cmake`).
+This requires `gcc`, `qt5`, and `cmake` (`pkg_add gcc qt5 cmake`).
 
 ```
 git clone https://github.com/tsujan/Kvantum
