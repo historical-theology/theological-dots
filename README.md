@@ -134,7 +134,7 @@ root: [name@domain.tld]					  # routes mail agent messages intended for root to 
 On a fresh OpenBSD 7.2+ installation, I can run the following to install most of what I need for these dotfiles (alphabetically):
 
 ```
-pkg_add alacritty bash conky fff firefox-esr fish git hack-fonts lxappearance micro mupdf nitrogen pcmanfm-qt picom ranger qt5ct rclone rclone-browser redshift rofi spectrwm unzip
+pkg_add alacritty bash cmixer conky fff firefox-esr fish git hack-fonts lxappearance micro mupdf nitrogen pcmanfm-qt picom ranger qt5ct rclone rclone-browser redshift rofi spectrwm unzip
 ```
 
 #### yadm
